@@ -1,0 +1,25 @@
+Start
+
+//Declarar variables
+Declarer Float nombre_libro
+Declarer Float autor_libro
+Declarer Float precio_libro
+Declarer Float publicacion_libro
+
+//obtención de datos
+Display "Nombre del libro"
+input Nombre_libro
+Display "autor libro"
+input autor_libro
+Display "precio del libro"
+input precio_libro
+Display "publicacion del libro"
+input publicacion_libro
+
+
+//Mostrar resultado
+Display " los datos del libro ", Nombre_libro, autor_libro, precio_libro, publicacion_libro
+
+
+End
+
