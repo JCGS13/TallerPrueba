@@ -4,7 +4,7 @@ programa para calcular consumo de energía
 start
 
 // Declarar variables
-Constanr Float potencia_en_vatios
+Constant Float potencia_en_vatios
 Declarer Float numero_de_horas_de_uso
 Declarer Float numero_de_dias
 Declarer Float potencia_en_kilovatios
