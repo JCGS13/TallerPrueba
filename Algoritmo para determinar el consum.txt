@@ -1,0 +1,8 @@
+Algoritmo para determinar el consumo de energía de un electrodoméstico
+1 iniciar
+2 obtener el valor de los vatios, el consumo de horas por dia y la cantidad de días
+3 convertir lo vatios en kilovatios aplicando la formula Kv= vatio/1000
+4 calcular el consumo diario de kilovatios con la formula kv * horas del dia
+5 calcular el consumo mensual multiplicando el consumo diario * la cantidad de días
+6 mostrar resultado
+7 finalizar
