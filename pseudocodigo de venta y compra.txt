@@ -45,6 +45,5 @@ Dispaly "El monto de la comisión pagada al proveedor en la venta es", comision_
 If ganancia_o_perdida > 0, Display "Ana ganó $ganancia_o_perdida"
 If ganancia_o_perdida < 0, Display "Ana perdió $ganancia_o_perdida"
 If ganancia_o_perdida == 0, Display "Ana no ganó ni perdió dinero."
-
-
+Finalizar
 
