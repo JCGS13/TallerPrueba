@@ -1,0 +1,10 @@
+algoritmo de venta y compra
+1 iniciar
+2 obtener el valor de numero de equipos, precio de compra, tasa de comisión, numero de equipos de venta, precio de venta, tasa de comisión de venta
+3 calcular el monto Total Pagado por la Compra de los Equipos multiplicando el número de equipos por el precio de compra.
+4 calcular el monto de la Comisión Pagada al Proveedor en la Compra al multiplicar el monto total de la compra por la tasa de comisión.
+5 calcular el monto Total Recibido por la Venta de los Equipos multiplicando el número de equipos por el precio de venta.
+6 calcular el monto de la Comisión Pagada al Proveedor en la Venta Se multiplica el monto total de la venta por la tasa de comisión.
+7 Calcular la Ganancia o Pérdida de Ana restando todos los costos del ingreso total de la venta.
+8 Mostrar resultado
+9 Finalizar
