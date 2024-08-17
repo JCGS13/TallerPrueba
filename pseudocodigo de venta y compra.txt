@@ -1,0 +1,50 @@
+pseudocodigo de venta y compra
+
+programa para calcular el monto de venta y compra
+start
+
+// Declarar variables
+Declarer Float numero_equipos_comprados 
+Declarer Float precio_compra
+Declarer Float tasa_comision_compra 
+Declarer Float numero_equipos_ventas
+Declarer Float precio_ventas
+Declarer Float tasa_comision_ventas 
+Declarer Float monto_total_compras
+Declarer Float comision_compras
+Declarer Float monto_total_ventas 
+Declarer Float comision_ventas 
+Declarer Float ganancias_o_perdidas 
+
+// Obtención de datos
+Display "numero de equipos comprados"
+input numero_equipos_comprados 
+Display "precio de la compra"
+input precio_compra
+Display "la tasa de la comisión por la compra"
+input tasa_comision_compra 
+Display "numpero de equipos de venta
+input numero_equipos_ventas
+Display "el precio de las ventas
+input precio_ventas
+Display "tasa de comisiones en las ventas"
+input tasa_comision_ventas 
+
+//Calcular datos
+set monto_total_compra = numero_equipos_compra*precio_compra
+set comision_compra = monto_total_compra * tasa_comision_compra
+set monto_total_venta = numero_equipos_venta * precio_venta
+set comision_venta = monto_total_venta * tasa_comision_venta
+set ganancia_o_perdida = (monto_total_venta - comision_venta) - (monto_total_compra + comision_compra)
+
+//Mostrar resultado
+Display "El monto total pagado por la compra de los equipos es", monto_total_compra
+Display "El monto de la comisión pagada al proveedor en la compra es", comision_compra
+Display "El monto total recibido por la venta de los equipos es", monto_total_venta"
+Dispaly "El monto de la comisión pagada al proveedor en la venta es", comision_venta"
+If ganancia_o_perdida > 0, Display "Ana ganó $ganancia_o_perdida"
+If ganancia_o_perdida < 0, Display "Ana perdió $ganancia_o_perdida"
+If ganancia_o_perdida == 0, Display "Ana no ganó ni perdió dinero."
+
+
+
