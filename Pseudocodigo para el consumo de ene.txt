@@ -1,0 +1,32 @@
+Pseudocodigo para el consumo de energía de un electrodomestico
+
+programa para calcular consumo de energía
+start
+
+// Declarar variables
+Constanr Float potencia_en_vatios
+Declarer Float numero_de_horas_de_uso
+Declarer Float numero_de_dias
+Declarer Float potencia_en_kilovatios
+Declarer Float consumo_diario
+Declarer Float consumo_mensual
+
+// Obtención de datos
+Display "numero de horas de uso: "
+Input numero_de_horas_de_uso
+Display "numero de dias de uso: "
+Input numero_de_dias_de_uso
+
+// Realizar calculos
+set potencia_en_kilovatios = potencia_en_vatios/1000
+
+set consumo_diario = potencia_en_kilovatios*consumo_diario
+
+set consumo_mensual = consumo_diario*numero_de_dias
+
+// Presentación de resultado
+Display "el consumo mensual de este electrodomestico es", consumo_mensual
+
+End
+
+
